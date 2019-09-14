@@ -6,3 +6,45 @@ i {
   font-style: normal;
   font-family: "Noto Sans Japanese", sans-serif;
 }
+
+p>i {
+  font-style: italic;
+}
+
+.nav li {
+  text-decoration: none;
+
+}
+
+header {
+  text-align: center;
+}
+
+.btn-ghost {
+  color: #0084a6;
+  border-color: #0084a6;
+}
+
+.btn-ghost:hover {
+  color:#005e76;
+  border-color: #005e76;
+}
+
+footer {
+  color: #e2e2e2;
+  border-top: #e2e2e2 2px solid;
+  padding-top: 1rem;
+}
+
+.first-quote {
+  border-top: #e2e2e2 2px solid;
+  border-bottom: #e2e2e2 2px solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    text-align: left;
+  }
+
+}
