@@ -1,37 +1,44 @@
 html {
   font-family: "Noto Sans", sans-serif;
+  color: #000;
 }
 
 i {
-  font-style: normal;
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-p>i {
-  font-style: italic;
+.nav a {
+  text-decoration: none;
+  border-bottom: #0084a6 2px solid;
+  color: #0084a6;
+  padding: .25em 0;
 }
 
-.nav li {
-  text-decoration: none;
-
+.nav a:hover {
+  border-bottom: #005e76 2px solid;
+  color: #005e76;
 }
 
 header {
   text-align: center;
 }
 
+.embed-garden {
+  padding-top: 66.6619%;
+}
+
 .btn-ghost {
   color: #0084a6;
-  border-color: #0084a6;
+  border: #0084a6 2px solid;
 }
 
 .btn-ghost:hover {
-  color:#005e76;
+  color: #000;
   border-color: #005e76;
+  background-color: #8bc9d9;
 }
 
 footer {
-  color: #e2e2e2;
   border-top: #e2e2e2 2px solid;
   padding-top: 1rem;
 }
