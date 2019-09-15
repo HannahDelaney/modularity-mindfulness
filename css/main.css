@@ -54,4 +54,8 @@ footer {
     text-align: left;
   }
 
+  .title {
+    margin-bottom: .5em;
+  }
+
 }
