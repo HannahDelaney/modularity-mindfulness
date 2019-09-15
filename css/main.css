@@ -9,9 +9,9 @@ i {
 
 .nav a {
   text-decoration: none;
-  border-bottom: #0084a6 2px solid;
-  color: #0084a6;
-  padding: .25em 0;
+  border-bottom: #8bc9d9 2px solid;
+  padding-bottom: .3em;
+  color: #005e76;
 }
 
 .nav a:hover {
@@ -28,7 +28,7 @@ header {
 }
 
 .btn-ghost {
-  color: #0084a6;
+  color: #005e76;
   border: #0084a6 2px solid;
 }
 
@@ -50,7 +50,7 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
-  header {
+  .header {
     text-align: left;
   }
 
